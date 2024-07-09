@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+/* headerstylestart */
+header{
+    max-width: 1440px;
+    height: 652px;    
+    background-image: url(assets/Hero-bg.png);
+    margin: 0 auto;
+}
+.headerimg{
+    width: 240.28px;
+    height: 240px;  
+    padding-top: 24px;  
+    padding-left: 599.86px;
+}
+.headerdescription{
+    width: 998px;
+    height: 310px; 
+    padding-top: 32px;   
+    padding-left: 221px;
+    text-align: center;
+}
+.headerdescription h3{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;    
+}
+.headerdescription .comfort{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
+
+.headerdescription button{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    padding: 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+/* headerstyleends */
+
+/* main01stylsstarts */
+.borderdiv{
+    width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    height: 1395px;
+    margin: 100px auto;
+}
+.whyweb{
+    width: 946px;
+    height: 1235px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);   
+    margin: 80px 97px; 
+    
+    
+}
+.heading{
+    width: 852px;
+    height: 115px;
+   
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;   
+    margin-top: 0px; 
+}
+.heading p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;    
+}
+/* main01stylends */
+
+
+/* main02stylsstarts */
+.iwilldoborder{
+    width: 946px;
+    height: 336px;  
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);      
+    background-image: linear-gradient(rgb(255, 255, 255)
+    rgba(255, 255, 255, 0));
+    e;
+}
+.iwilldo{
+    display: flex;
+    margin-top: 48px;
+    
+    
+}
+.iwilldo .description{
+    
+    width: 477px;
+    height: 220px;     
+    
+}
+
+.iwilldo .description h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;  
+    
+}
+.iwilldo .description p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    opacity: 0.7;
+   
+}
+.iwilldo button{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 195, 195);
+    opacity: 0.7;
+    border-radius: 5px;
+ 
+}
+.iwilldo .img{
+    width: 274.17px;
+    height: 240px;   
+    margin-left: 95px; 
+   
+}
+/* main02stylsends*/
+
+/* main03stylstarts*/
+
+.iwillhelpborder{
+    width: 946px;
+    height: 336px;  
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);      
+    background-image: linear-gradient(rgb(255, 255, 255)
+    rgba(255, 255, 255, 0));
+    margin-top: 32px;
+}
+.iwillhelp{
+    display: flex;
+    margin-top: 48px;
+    
+    
+}
+.iwilhelp .description{
+    
+    width: 477px;
+    height: 220px;     
+    
+}
+
+.iwillhelp .description h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;  
+    
+}
+.iwillhelp .description p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    opacity: 0.7;
+   
+}
+.iwillhelp button{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 195, 195);
+    opacity: 0.7;
+    border-radius: 5px;
+
+}
+.iwillhelp .img{
+    width: 274.17px;
+    height: 240px;   
+    margin-right: 32px; 
+}
+
+/* main03stylsends*/
+
+.iwilldoborder{
+    width: 946px;
+    height: 336px;  
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);      
+    background-image: linear-gradient(rgb(255, 255, 255)
+    rgba(255, 255, 255, 0));
+  
+    margin-top: 32px;
+}
+.iwilldo{
+    display: flex;
+    margin-top: 48px;
+    
+    
+}
+.iwilldo .description{
+    
+    width: 477px;
+    height: 220px;     
+    
+}
+
+.iwilldo .description h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;  
+    
+}
+.iwilldo .description p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    opacity: 0.7;
+   
+}
+.iwilldo button{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 195, 195);
+    opacity: 0.7;
+    border-radius: 5px;
+ 
+}
+.iwilldo .img{
+    width: 274.17px;
+    height: 240px;   
+    margin-left: 95px; 
+}
