@@ -302,6 +302,7 @@ header{
     margin: 50px auto;
     border: 1px solid rgb(221, 216, 216);
     border-radius: 10px;
+    margin-bottom: 150px;
     
 }
 iframe{
@@ -311,11 +312,28 @@ iframe{
 
 /* targetstyle start */
 
-
-
-
-
-
-
+.target{
+    width: 946px;
+    height: 113px; 
+    margin: 50px auto;   
+    text-align: center;
+}
+.target h1{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+.target p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 
 /* targetstyle end */
+
+
+
+
