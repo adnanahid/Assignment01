@@ -387,5 +387,41 @@ iframe{
 /* planguage style end */
 
 
+/* support style start */
+.support{
+    width: 1140px;
+    height: 313px;    
+    background-image: url(assets/handshake.jpg);
+    margin: 200px auto;
+    border-radius: 5px;
+    
+}
+.support h1{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    opacity: 0.7;
+    text-align: center;
+   
+}
+.inp{
+    width: 548px;
+    height: 57px; 
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    
+    background: rgb(255, 255, 255);       
+}
 
+/* support style end */
 
