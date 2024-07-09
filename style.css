@@ -35,7 +35,6 @@ header{
     font-weight: 400;
     opacity: 0.7;
     margin-top: 24px;
-    margin-bottom: 32px;
 
 }
 
@@ -47,10 +46,11 @@ header{
     padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-}
-/* headerstyleends */
 
-/* main01stylsstarts */
+}
+/* headerstyleend */
+
+/* main01stylsstart */
 .borderdiv{
     width: 1140px;
     border-radius: 16px;
@@ -88,10 +88,10 @@ header{
     font-weight: 400;
     opacity: 0.7;    
 }
-/* main01stylends */
+/* main01stylend */
 
 
-/* main02stylsstarts */
+/* main02stylsstart */
 .iwilldoborder{
     width: 946px;
     height: 336px;  
@@ -147,9 +147,9 @@ header{
     margin-left: 95px; 
    
 }
-/* main02stylsends*/
+/* main02stylsend*/
 
-/* main03stylstarts*/
+/* main03stylstart*/
 
 .iwillhelpborder{
     width: 946px;
@@ -206,7 +206,9 @@ header{
     margin-right: 32px; 
 }
 
-/* main03stylsends*/
+/* main03stylsend*/
+
+/* main04stylsstart*/
 
 .iwilldoborder{
     width: 946px;
@@ -263,9 +265,15 @@ header{
     height: 240px;   
     margin-left: 95px; 
 }
+
+
+/* main04stylsend*/
+
+
+/* inspirationstylsstart*/
 .inspiration{
-    width: 1140px;
-    height: 775px;
+    width: 852px;
+    height: 213px;
     text-align: center;
     margin-top: 88px;
     margin: 0 auto;
@@ -284,3 +292,30 @@ header{
     opacity: 0.7;
   
 }
+/* inspiration style end*/
+
+/* iframestyle start */
+
+.iframe{
+    width: 1140px;
+    height: 614px;
+    margin: 50px auto;
+    border: 1px solid rgb(221, 216, 216);
+    border-radius: 10px;
+    
+}
+iframe{
+    margin: 32px;
+}
+/* iframestyle end */
+
+/* targetstyle start */
+
+
+
+
+
+
+
+
+/* targetstyle end */
