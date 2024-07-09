@@ -335,5 +335,57 @@ iframe{
 /* targetstyle end */
 
 
+.planguage{
+    width: 1140px;
+    height: 300px;   
+    display: flex;
+    margin: 30px auto;
+    gap: 24px;
+}
+.planguage .html{
+    width: 364px;
+    height: 299px; 
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);  
+    padding: 40px;
+}
+.planguage .css{
+    width: 364px;
+    height: 299px; 
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+    padding: 40px;   
+}
+.planguage .js{
+    width: 364px;
+    height: 299px; 
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.languagedescription{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;  
+
+}
+.languagenane{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 800;    
+}
+.planguage a{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* planguage style end */
+
+
 
 
