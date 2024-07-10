@@ -3,7 +3,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-/* top style start */
+/* nav style start */
 .top{
     display: flex;
     justify-content: space-between;
@@ -34,8 +34,11 @@ body{
     cursor: pointer;
 }
 
-/* top style end */
-/* headerstylestart */
+/* nav style end */
+
+
+
+/* header style start */
 header{
     max-width: 1440px;
     height: 652px;    
@@ -83,7 +86,7 @@ header{
     cursor: pointer;
 
 }
-/* headerstyleend */
+/* header style end */
 
 /* main01stylsstart */
 .borderdiv{
@@ -123,10 +126,10 @@ header{
     font-weight: 400;
     opacity: 0.7;    
 }
-/* main01stylend */
+/* main01 style end */
 
 
-/* main02stylsstart */
+/* main02 styls start */
 .iwilldoborder{
     max-width: 946px;
     height: 336px;  
@@ -185,9 +188,9 @@ header{
     margin-left: 95px; 
    
 }
-/* main02stylsend*/
+/* main02 style end*/
 
-/* main03stylstart*/
+/* main03 style start*/
 
 .iwillhelpborder{
     max-width: 946px;
@@ -246,9 +249,11 @@ header{
     margin-right: 32px; 
 }
 
-/* main03stylsend*/
+/* main03 style send*/
 
-/* main04stylsstart*/
+
+
+/* main04 style start*/
 
 .iwilldoborder{
     max-width: 946px;
@@ -307,10 +312,10 @@ header{
 }
 
 
-/* main04 stylsend*/
+/* main04 style end*/
 
 
-/* inspiration stylsstart*/
+/* inspiration style start*/
 .inspiration{
     max-width: 852px;
     height: 213px;
@@ -333,6 +338,7 @@ header{
   
 }
 /* inspiration style end*/
+
 
 /* iframestyle start */
 
@@ -376,10 +382,92 @@ iframe{
     opacity: 0.7;
 }
 
-
-
-
 /* current target style end */
+
+
+
+/* planguage style start */
+.planguage{
+    max-width: 1140px;
+    height: 300px;   
+    display: flex;
+    margin: 30px auto;
+    gap: 24px;
+}
+.planguage .html{
+    width: 364px;
+    height: 259px; 
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);  
+    padding: 40px;
+}
+.planguage .css{
+    width: 364px;
+    height: 259px; 
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+    padding: 40px;   
+}
+.planguage .js{
+    width: 364px;
+    height: 259px; 
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.languagedescription{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;  
+
+}
+.languagenane{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 800;    
+}
+.planguage a{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* planguage style end */
+
+
+
+/* next target style start */
+.nexttarget{
+    max-width: 946px;
+    height: 115px; 
+    margin:0 auto;   
+    margin-top: 200px;
+    text-align: center;
+}
+
+.nexttarget h1{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;    
+}
+.nexttarget p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;  
+    opacity: 0.7;
+  
+}
+
+
+/* next target style end */
+
+
 
 /* advance language styles start */
 .advancelanguage{
@@ -506,86 +594,6 @@ iframe{
 
 
 
-/* next target style start */
-.nexttarget{
-    max-width: 946px;
-    height: 115px; 
-    margin:0 auto;   
-    margin-top: 200px;
-    text-align: center;
-}
-
-.nexttarget h1{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-weight: 800;    
-}
-.nexttarget p{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;  
-    opacity: 0.7;
-  
-}
-
-
-/* next target style end */
-
-
-
-.planguage{
-    max-width: 1140px;
-    height: 300px;   
-    display: flex;
-    margin: 30px auto;
-    gap: 24px;
-}
-.planguage .html{
-    width: 364px;
-    height: 259px; 
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);  
-    padding: 40px;
-}
-.planguage .css{
-    width: 364px;
-    height: 259px; 
-    border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05); 
-    padding: 40px;   
-}
-.planguage .js{
-    width: 364px;
-    height: 259px; 
-    border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
-    padding: 40px;
-}
-
-.languagedescription{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;  
-
-}
-.languagenane{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 24px;
-    font-weight: 800;    
-}
-.planguage a{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-/* planguage style end */
-
 
 /* support style start */
 .support{
@@ -659,6 +667,9 @@ iframe{
 }
 
 /* support style end */
+
+
+
 
 /* footer style start */
 footer{
