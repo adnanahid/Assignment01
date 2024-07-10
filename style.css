@@ -95,14 +95,13 @@ header{
     height: 1235px;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);   
-    margin: 80px 97px; 
+    padding: 80px 97px; 
     
     
 }
 .heading{
     width: 852px;
     height: 115px;
-   
     margin: 0 auto;
     text-align: center;
 }
@@ -112,6 +111,7 @@ header{
     font-size: 32px;
     font-weight: 800;   
     margin-top: 0px; 
+
 }
 .heading p{
     color: rgb(13, 19, 33);
@@ -132,10 +132,11 @@ header{
     background-image: linear-gradient(rgb(255, 255, 255)
     rgba(255, 255, 255, 0));
     e;
+    
 }
 .iwilldo{
     display: flex;
-    margin-top: 48px;
+    
     
     
 }
@@ -299,10 +300,10 @@ header{
 }
 
 
-/* main04stylsend*/
+/* main04 stylsend*/
 
 
-/* inspirationstylsstart*/
+/* inspiration stylsstart*/
 .inspiration{
     width: 852px;
     height: 213px;
@@ -364,35 +365,10 @@ iframe{
     opacity: 0.7;
 }
 
+
+
+
 /* current target style end */
-
-/* next target style start */
-.nexttarget{
-    width: 946px;
-    height: 115px; 
-    margin:0 auto;   
-    margin-top: 200px;
-    text-align: center;
-}
-
-.nexttarget h1{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-weight: 800;    
-}
-.nexttarget p{
-    color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: 400;  
-    opacity: 0.7;
-  
-}
-
-
-/* next target style start */
-
 
 /* advance language styles start */
 .advancelanguage{
@@ -515,11 +491,37 @@ iframe{
     padding-left: 40px;
 }
 
-
-
-
-
 /* advance language styles end */
+
+
+
+/* next target style start */
+.nexttarget{
+    width: 946px;
+    height: 115px; 
+    margin:0 auto;   
+    margin-top: 200px;
+    text-align: center;
+}
+
+.nexttarget h1{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;    
+}
+.nexttarget p{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;  
+    opacity: 0.7;
+  
+}
+
+
+/* next target style end */
+
 
 
 .planguage{
