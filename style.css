@@ -137,6 +137,7 @@ header{
 }
 .iwilldo{
     display: flex;
+    padding: 48px;
     
     
     
@@ -197,6 +198,7 @@ header{
 .iwillhelp{
     display: flex;
     margin-top: 48px;
+    padding: 48px;
     
     
 }
@@ -255,7 +257,8 @@ header{
 }
 .iwilldo{
     display: flex;
-    margin-top: 48px;
+    
+    padding: 48px;
     
     
 }
@@ -535,22 +538,22 @@ iframe{
     gap: 24px;
 }
 .planguage .html{
-    max-width: 364px;
-    height: 299px; 
+    width: 364px;
+    height: 259px; 
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);  
     padding: 40px;
 }
 .planguage .css{
-    max-width: 364px;
-    height: 299px; 
+    width: 364px;
+    height: 259px; 
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05); 
     padding: 40px;   
 }
 .planguage .js{
-    max-width: 364px;
-    height: 299px; 
+    width: 364px;
+    height: 259px; 
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
