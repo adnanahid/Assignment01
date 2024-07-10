@@ -40,6 +40,7 @@ header{
     height: 652px;    
     background-image: url(assets/Hero-bg.png);
     margin: 0 auto;
+    border: 4px rgb(206, 204, 204) dashed;
 }
 .headerimg{
     width: 240.28px;
