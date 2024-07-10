@@ -340,6 +340,10 @@ header{
 iframe{
     margin: 32px;
 }
+
+.bestmuslim{
+    border-radius: 10px;
+}
 /* iframe style end */
 
 /* current target style start */
