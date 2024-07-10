@@ -2,6 +2,38 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
+/* top style start */
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 1440px;
+}
+
+
+.top h1{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 800;    
+}
+
+
+
+.top button{
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;  
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 195, 195);
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+/* top style end */
 /* headerstylestart */
 header{
     max-width: 1440px;
@@ -445,7 +477,7 @@ iframe{
 
 .sub{
     width: 120px;
-    height: 53px;
+    height: 50px;
     border-radius: 8px;
     color: rgb(13, 19, 33);
     font-family: "Inter", sans-serif;
