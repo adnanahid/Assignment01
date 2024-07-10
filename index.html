@@ -25,7 +25,7 @@
         <div class="headerdescription">
             <h3>"In the near future, I hope to become a <br>Developer."</h3>
             <p class="comfort">I am comfortable in a good deal of programming languages, including C, C++, Perl, PHP, (and some not-so-programming-languages: SQL, CSS, HTML, etc). (I’m going to get around to learning Python eventually, honest.)</p>
-            <button>Contact with me</button>
+            <button onclick="scrollTofooter()">Contact with me</button>
 
         </div>
     </header>
@@ -62,7 +62,7 @@
                             <div class="description">
                                 <h2>I will help People by creating Modern <br>Web System</h2>
                                     <p>We can use our technology and invention in medical sector <br> to help mangopeople </p>
-                                    <button>Learn More</button>
+                                    <button onclick="scrollToFooter">Learn More</button>
 
                             </div>
                         </div>
@@ -193,7 +193,8 @@
 
 
         <section>
-            <div class="support">
+            
+            <div class="support" id="scrollhere">
                 <div >
                     <h1>I need Support</h1>
                     <p>I need Support of yours, You can send your feedback so for that I can  improve myself</p>
@@ -210,7 +211,7 @@
 
 
     <footer>
-        <div class="">
+        <div class>
             <h1>
                 An Open Project by Adnan Nahid
             </h1>
@@ -221,6 +222,11 @@
             <img src="assets/linkedin-icon 1.png" alt="">
         </div>
     </footer>
+    <script>
+        function scrollTofooter() {
+            document.getElementById('scrollhere').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
     
 </body>
 </html>
