@@ -79,6 +79,7 @@ header{
     padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    cursor: pointer;
 
 }
 /* headerstyleend */
@@ -174,6 +175,7 @@ header{
     border: 1px solid rgb(196, 195, 195);
     opacity: 0.7;
     border-radius: 5px;
+    cursor: pointer;
  
 }
 .iwilldo .img{
@@ -234,6 +236,7 @@ header{
     border: 1px solid rgb(196, 195, 195);
     opacity: 0.7;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 .iwillhelp .img{
@@ -293,6 +296,7 @@ header{
     border: 1px solid rgb(196, 195, 195);
     opacity: 0.7;
     border-radius: 5px;
+    cursor: pointer;
  
 }
 .iwilldo .img{
@@ -649,7 +653,8 @@ iframe{
     font-size: 20px;
     font-weight: 600;
     background: rgb(255, 255, 255);;    
-    border: none;    
+    border: none;   
+    cursor: pointer; 
 }
 
 /* support style end */
